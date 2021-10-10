@@ -1,0 +1,146 @@
+body{
+    width: 100vmin;
+    height: 5cm;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.head{
+    overflow: hidden;
+    width: 100vmin;
+    height: 2.2cm;
+    background-color: rgb(8, 107, 221);
+    float: left;
+}
+
+.title img{
+    margin-top: -15px;
+    margin-right: 15px;
+    width: 1.3cm;
+    height: 1.2cm;
+}
+.title h1{
+    padding-top: 15px;
+    width: 80%;
+    color: whitesmoke;
+    text-align: center;
+    text-transform: uppercase;
+    height: 2.5cm;
+    font-size: 45px;
+    margin:auto ;
+    
+}
+.about{
+    padding-right: 20px;
+    padding-top: 25px;
+    float: right;
+}
+.about img{
+    width: 0.68cm;
+    height: 0.85cm;
+}
+#btninfo{
+    background-color: transparent;
+    border: none;
+}
+#builder{
+    display: none;
+    margin-top: 0cm;
+    float: left;
+    width: 100%;
+    background-color: rgb(231, 177, 0);
+}
+#about{
+    border-radius: 10px;
+    border: rgb(180, 180, 180);
+    background-color: transparent;
+    margin:5px 0px;
+    text-transform: uppercase;
+    border-style:groove;
+    color: whitesmoke;
+    width: 2cm;
+    padding: 0 ;
+    
+}
+.allmenu{
+    top: -2.2cm;
+    position: sticky;
+}
+.menu{
+    margin-top: 0cm;
+    float: left;
+    width: 100%;
+    background-color: yellowgreen;
+}
+.menu-width{
+    float: left;
+    width: 100%;
+    height: 2cm;
+    background-color: rgb(16, 38, 134);
+}
+.btnmenu img{
+    margin-right: -5px;
+    margin-top: -5px;
+    height: 1.5cm;
+    width: 1.5cm;
+}
+#mennu1{
+    border: none;
+    color: white;
+    background: transparent;
+    font-size: 20px;
+    width: 1.7cm;
+    height: 0.5cm;
+    margin-top: 22px;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.btnmenu button p a:hover{
+    color: white;
+    box-shadow: 2px 1px 5px;
+}
+.btnmenu button p a:active{
+    box-shadow: rgb(255, 0, 140) 2px 1px 5px;
+    color: whitesmoke;
+}
+.allvideo{
+    overflow-y: scroll;
+    scroll-margin-block-start: ;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    height: 11.1cm;
+    width: 100%;
+}
+.boxvid1{
+    margin-top: 0cm;
+    border: 1.2px solid black;
+    height: 310px;
+    width: 100%;
+}
+.boxvid{
+    margin-top: -16px;
+    border: 1.2px solid black;
+    height: 310px;
+    width: 100%;
+}
+#love{
+    margin: 4px 0px;
+    background-color: violet;
+    height: 0.9cm;
+    border: none;
+   
+}
+#liked{
+    float: left;
+    padding-top: 8px;
+}
+.search input{
+    width: 7cm;
+    border: none;
+    border-radius: 15px;
+}
+#search{
+    border: none;
+    background-color: transparent;
+}
